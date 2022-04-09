@@ -1,9 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
+/** 
+ * main - Entry point
+ *
+ * Return: Always 0 (success/correct)
+ */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
@@ -15,6 +18,7 @@ int main(void)
 	{
 		printf("%i is zero\n", n);
 	}
+
 	else if (n<0)
 	{ 
 		printf("%i is negative\n",n);
@@ -24,6 +28,7 @@ int main(void)
 	{
 		printf("%i is positive\n",n);
 	}
+
 	return (0);
 }
 
