@@ -20,6 +20,5 @@ int main(void)
 	{
 		putchar(lower_case);
 	}
-	
 	return (0);
 }
