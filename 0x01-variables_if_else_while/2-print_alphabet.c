@@ -1,4 +1,5 @@
-#include <stdio.h> 
+#include <stdio.h>
+
 /**
  * main - Entry point
  *
@@ -6,7 +7,8 @@
  */
 int main(void)
 
-{ 
+{
+
 	char alphabet; 
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)  
